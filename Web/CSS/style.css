@@ -1,0 +1,84 @@
+h1 {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 23px;
+  font-family: "Times New Roman";
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+h2 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 40px;
+  font-family: "Times New Roman";
+}
+
+p {
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+.foot {
+  font-size: 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.related {
+  list-style: none;
+}
+
+.boldp {
+  font-weight: bold;
+}
+
+.back {
+  background-color: rgb(231, 158, 165);
+}
+
+.backend {
+  background-color: rgba(189, 81, 99, 0.8);
+  line-height: 150%;
+}
+
+a:link {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  /*get rid of the underline*/
+}
+
+a:visited {
+  color: rgba(153, 102, 153, 0.8);
+}
+
+a:hover {
+  color: rgba(153, 153, 205, 1);
+  font-weight: bold;
+  text-decoration: underline dotted green;
+}
+
+a:active {
+  color: rgba(153, 102, 153, 1);
+  background-color: white;
+  font-style: italic;
+}
+
+aside {
+  background: linear-gradient(
+    to right,
+    rgba(247, 207, 222, 0.4),
+    rgba(255, 255, 255, 1)
+  );
+  border: 5px solid rgba(222, 213, 206, 0.8);
+}
+
+h4 {
+  color: rgba(206, 134, 140, 0.7);
+}
+
+.center {
+  text-align: center;
+}
+
+.colorpink {
+  color: rgba(206, 134, 140, 0.7);
+}
