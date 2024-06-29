@@ -38,6 +38,10 @@ p {
 .backend {
   background-color: rgba(189, 81, 99, 0.8);
   line-height: 150%;
+  padding: 20px;
+  /*deal with the space between the text and border*/
+  /* padding-left: padding-right*/
+  /*margin: between the space of different div*/
 }
 
 a:link {
