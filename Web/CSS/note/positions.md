@@ -64,3 +64,27 @@ button{
 fixed can fix the button on the same position, instead of changing with the control.
 
 z-index  can control the array order.
+
++ pseudo-elements
+
+```css
+h1::first-letter{
+	font-style:normal;
+    margin-right:5px;
+}
+h1 + p::first-line{
+    color:red;
+}/*only the line after the h1*/
+```
+
+```css
+h2::after {
+    content:"TOP";
+    background-color: yellow;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    padding:5px 10px;
+}
+```
+
