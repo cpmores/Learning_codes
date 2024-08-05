@@ -31,14 +31,34 @@ p {
   font-weight: bold;
 }
 
+.bodycontrol {
+  width: 700px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.audio_position {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}
+
 .back {
-  background-color: rgb(231, 158, 165);
+  background-color: rgb(247, 207, 222);
+}
+
+.article_back {
+  border: 5px solid rgba(255, 255, 255, 0.8);
+  background: rgba(231, 158, 165, 1);
+  padding: 10px;
+  display: inline-block;
+  width: 670.4px;
 }
 
 .backend {
   background-color: rgba(189, 81, 99, 0.8);
   line-height: 150%;
-  padding: 20px;
+  padding-top: 1px;
   /*deal with the space between the text and border*/
   /* padding-left: padding-right*/
   /*margin: between the space of different div*/
@@ -56,14 +76,29 @@ a:visited {
 
 a:hover {
   color: rgba(153, 153, 205, 1);
-  font-weight: bold;
   text-decoration: underline dotted green;
+  background-color: white;
 }
 
 a:active {
   color: rgba(153, 102, 153, 1);
   background-color: white;
   font-style: italic;
+}
+
+header div {
+  text-align: center;
+  background-color: #cc99cc;
+}
+
+header a {
+  font-size: 15px;
+  font-family: "Corbel";
+  font-style: italic;
+  display: inline-block;
+  margin-top: 0;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 aside {
@@ -81,6 +116,12 @@ h4 {
 
 .center {
   text-align: center;
+}
+
+div iframe {
+  position: absolute;
+  right: -200px;
+  bottom: 12px;
 }
 
 .colorpink {
